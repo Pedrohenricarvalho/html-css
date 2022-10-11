@@ -1,0 +1,29 @@
+.container {
+    width: 100%;
+    background-color: white;
+    border: solid rgba(0, 0, 0, 0.082);
+    max-width: 100%;
+    margin:  0 auto;
+    height: 1000px;
+    
+}
+
+.grid-container{
+    background-color: rgb(255, 255, 255);
+    display: grid; 
+    height: 800px;
+    justify-content: center;
+    align-content: center;
+    row-gap: 10px;
+}
+
+.grid-item{
+    background-color: aliceblue;
+    border: solid rgba(0, 0, 0, 0.37);
+    display: grid;
+    height: 40px;
+    width: 700px;
+    align-content: space-around;
+    
+
+}

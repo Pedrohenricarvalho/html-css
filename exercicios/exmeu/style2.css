@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: aqua;
+    padding: 30px;
+    
+}
+h1{
+    text-align: center;
+}
+.container {
+    background-color: #f7dbd9;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    border: 3px solid black;
+     height: 200px;
+     align-items: center;
+     
+}
+   
+
+
+.item {
+    background-color: rgba(223, 41, 41, 0.692);
+    width: 80%;
+    padding: 5px;
+    border-radius: 10px;
+    
+
+
+}
+
